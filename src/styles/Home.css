@@ -1,0 +1,36 @@
+.dark-section {
+    background-color: #33383C;
+    color: white;
+    padding: 60px 0;
+  }
+  
+  .content-box {
+    background-color: #444B52;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .content-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .content-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #F1F1F1;
+  }
+  
+  .content-text {
+    font-size: 16px;
+    color: #CCCCCC;
+  }
+  
+  @media (max-width: 768px) {
+    .content-box {
+      margin-bottom: 20px;
+    }
+  }
+  

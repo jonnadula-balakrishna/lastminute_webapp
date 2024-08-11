@@ -1,0 +1,53 @@
+.custom-navbar {
+    background-color: #33383C;
+    padding: 1rem;
+    font-size: 1.2rem; /* Slightly larger font size */
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 1.5rem; /* Make the brand name larger */
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    padding: 0.75rem 1rem;
+  }
+  
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+
+  .search-form {
+    align-items: center;
+  }
+  
+  .custom-search-input {
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .custom-search-input:focus {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  .custom-search-button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-search-button:hover {
+    background-color: #45a049; /* Darker green */
+    transform: scale(1.05);
+  }
+  
+  
